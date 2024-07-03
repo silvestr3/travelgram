@@ -1,1 +1,60 @@
 @import url(global.css);
+
+body {
+    font-family: 'Poppins';
+    color: var(--text-secondary);
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    padding: 24px;
+}
+
+nav div#menu{
+    margin-left: auto;
+    font-size: 16px;
+    color: var(--text-secondary);
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+nav, section#about {
+    background-color: var(--surface-color);
+}
+
+section {
+    padding: 24px;
+}
+
+section#about {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+section#about #profile {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-size: 14px;
+}
+
+h1 {
+    color: var(--text-primary);
+    font-size: 32px;
+}
+
+section#about #profile p {
+    max-width: 380px;
+    text-align: justify;
+}
+
+section#about #info .info-item {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 6px;
+}
