@@ -52,9 +52,27 @@ section#about #profile p {
     text-align: justify;
 }
 
+section#about #info {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
 section#about #info .info-item {
     display: flex;
     justify-content: flex-start;
     align-items: center;
     gap: 6px;
+}
+
+section#photos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.photo {
+    width: 286px;
+    margin: 12px;
 }
