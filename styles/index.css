@@ -76,3 +76,14 @@ section#photos {
     width: 286px;
     margin: 12px;
 }
+
+footer {
+    padding: 25px 32px;
+    display: flex;
+}
+
+footer div {
+    margin-left: auto;
+    display: flex;
+    gap: 16px;
+}
